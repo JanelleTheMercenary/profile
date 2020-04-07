@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  text-align: center;
+  color: #40514e;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  font-family: 'Amatic SC', cursive;
+  font-size: 5.625rem;
+}
+
+h2 {
+  font-family: 'Neuton', serif;
+  font-size: 2rem;
+  color:#66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+font-family: 'Neuton', serif;
+color: #11999e;
+}
+
+p {
+  color: #40514E;
+  font-family: 'Quicksand', sans-serif;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: #E1F6F6;
+    border-width: 8px;
+    width: 6%;
+    margin: 75px auto 75px auto;
+    }
+
+a {
+  color: #11999e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6
+}
+
+.mountain {
+  width: 90%;
+}
+
+.top-cloud {
+top:50px;
+left:15%;
+width:15%;
+position:absolute;
+}
+
+.bottom-cloud {
+  right:15%;
+  top:350px;
+  width:15%;
+  position:absolute;
+}
+
+.top-container {
+  background-color: #e1f6f6;
+  border-color: black;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 30px 0;
+  margin-top: 50px;
+}
+
+.intro {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  line-height: 2;
+}
+
+.outro {
+  width: 40%;
+  text-align: center;
+  margin: 40px auto 60px;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.notebook-icon {
+  width: 33%;
+  float:left;
+  margin-right: 30px;
+  margin-top: 40px;
+}
+
+.browser-icon {
+  width: 33%;
+  float:right;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.contact-icon {
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+.btn {
+	background:linear-gradient(to bottom, #11cdd4 5%, #119992 100%);
+	background-color:#11cdd4;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Quicksand', sans-serif;
+	font-size:20px;
+  font-weight: bold;
+	padding:8px 15px;
+	text-decoration:none;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #30E3CB 5%, #2BC4AD 100%);
+	background-color:#119992;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-family: 'Neuton', serif;
+  font-size: 1em;
+  color: #11999e;
+  padding: 20px;
+}
+
+.footer-text {
+  color:#EAF6F6;
+  opacity: 50;
+  font-size:0.75rem;
+  font-family: 'Quicksand', sans-serif;
+  margin: 20px 0;
+}
+
+.attribution {
+  color: #11999e;
+  font-size:0.75rem;
+  margin: 20px 0;
+  font-family: 'Quicksand', sans-serif;
+}
